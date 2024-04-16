@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: aa ;
+    src: url(fontes/JAi_____.TTF) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+main {
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #5f35f379;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px black;
+}
+body {
+   background-image: linear-gradient( #B29EF7, #4F20F5);
+   background-attachment: fixed;
+} 
+h1 {
+    font-family: aa;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+}
+a {
+    color: rgba(11, 3, 136, 0.63);
+}
