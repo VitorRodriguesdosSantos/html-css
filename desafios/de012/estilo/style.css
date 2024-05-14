@@ -1,2 +1,64 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh; /* 100% da aultura da tela */
+    background-color: darkgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px; /* da um espaço em cima no cabeçario */ 
+    font-variant: small-caps; /* da um destaque para a letra */
+}
+
+header > p {
+    padding-bottom: 50px; /* da um espaço em baixo no cabeçario */
+}
+
+a {
+    color: white;
+    text-decoration: none; /* tira o sublinhado */
+    font-weight: bolder; /* da um destaque para o link */
+}
+
+a:hover {
+    text-decoration: underline; /* quando passar o mause em cima vira um sublinhado */
+}
+
+section {
+    padding-top: 10vh; /* 10% da aultura da tela */
+    padding-bottom: 10vh; /* 10% da aultura da tela */
+    line-height: 2em; /* da um espaçamento entre as frases */
+    padding-left: 30px; /* coloca as letras mais pra dentro */
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: rgba(27, 27, 27, 0.521);
+    color: white;
+}
+
+.imagem > p {
+    background-color: black;
+    width: 400px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
