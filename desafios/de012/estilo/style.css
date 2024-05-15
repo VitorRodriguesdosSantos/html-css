@@ -57,19 +57,36 @@ section {
     font-size: 3vw; /* o tamanho da letra vai ser 3% da largura da tela */
 }
 
+section > p {
+    padding-bottom: 2em; /* dar um espaçamento entre as estrofes com dois paragrafos */
+}
+
 section.normal {
     background-color: white;
 }
 
 section.imagem {
-    background-color: rgba(27, 27, 27, 0.521);
+    background-color: rgba(27, 27, 27, 0.445);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.521); /* o <inset> faz uma sombra interna */
+    background-size: cover; /* ajusta a imagem para o menor tamanho possivel*/
+    background-attachment: fixed; /* fixa a imagem para dar o efeito parallax*/
 }
 
 .imagem > p {
-    background-color: rgba(20, 20, 20, 0.747);
+    background-color: rgba(20, 20, 20, 0.568);
     display: inline-block; /* caixa que se ajusta */
     padding: 10px; /* espaço dentro da caixa */
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg'); /* colocando a imagem */
+    background-position: right center; /* ajustando a imagem */ 
+}
+
+section#img02 {
+    background-image: url('../imagens/background002.jpg');
 }
 
 footer {
